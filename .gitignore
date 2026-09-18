@@ -1,0 +1,31 @@
+Quartus Prime Generated Files & Directories
+
+/db/
+/incremental_db/
+/simulation/
+/output_files/
+*.rpt
+*.summary
+*.smsg
+*.jdi
+*.pof
+*.sld
+*.sof
+*.qws
+*.pin
+*.done
+*.bak
+*.qdf
+
+ModelSim Simulation Files
+
+work/
+transcript
+vsim.wlf
+*.vstf
+
+Python / Custom Build Artifacts
+
+pycache/
+*.pyc
+*.mem
