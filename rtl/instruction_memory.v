@@ -6,6 +6,7 @@ module instruction_memory(
     input  [31:0] pc,
     output [31:0] instruction_code
 );
+    
     wire [29:0] word_addr = pc[31:2];
  
     altsyncram #(
